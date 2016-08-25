@@ -3,16 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 12
 subtitle:
 description:
-author: John Doe
-language:
+author: 12 Shu
+language: zh-Hans
 timezone:
+avatar: /uploads/12.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://jayqqaa12.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,9 +64,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git 
+  repository: https://github.com/jayqqaa12/jayqqaa12.github.io
+  branch: master
