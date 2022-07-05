@@ -70,5 +70,5 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git 
-  repository: https://github.com/jayqqaa12/jayqqaa12.github.io
+  repository: git@github.com:jayqqaa12/jayqqaa12.github.io.git
   branch: master
